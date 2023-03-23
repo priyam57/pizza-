@@ -1,0 +1,208 @@
+/* navigation bar */
+
+#navigation {
+    background-color: #36622B;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar {
+    color: #fff;
+}
+
+.navbar:hover {
+    color: #FBFAD3;
+}
+
+.d-flex {
+    padding-left: 800px;
+}
+
+
+/* main page style */
+
+#main-page {
+    background-color: #C6E377;
+    overflow: hidden;
+}
+
+.main-font {
+    text-align: center;
+    padding: 3% 3% 5%;
+}
+
+.main-font h1 {
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.special-font {
+    color: red;
+}
+
+.main-image {
+    width: 50rem;
+    padding: 3% 7% 3%;
+}
+
+
+/* second page style */
+
+#second-page {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.para {
+    font-family: Montserrat;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 3% 0 3% 0;
+    background-size: 100px;
+    background-color: pink;
+}
+
+.delivery-icon-1 {
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+.delivery-icon-2 {
+    width: 100px;
+    position: absolute;
+    right: 150px;
+    top: 100px;
+}
+
+
+/* benefits page  */
+
+#benefits {
+    background-color: #FBFAD3;
+    text-align: center;
+    padding: 3% 5% 3% 5%;
+}
+
+.benefits-icon {
+    width: 4rem;
+    padding-bottom: 2%;
+}
+
+#benefits h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+#benefits p {
+    font-size: 2rem;
+    color: #36622B;
+}
+
+
+/* testimonial section */
+
+#testimonial {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    color: #000;
+    position: relative;
+    display: block;
+    background-color: aqua;
+}
+
+#testimonial::before {
+    background-image: url('https://images8.alphacoders.com/865/865204.jpg');
+    position: absolute;
+    z-index: -3;
+}
+
+.testimonial-photo {
+    width: 15rem;
+    border-radius: 100%;
+    margin-right: 2%;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.testimonial-text {
+    font-size: 4rem;
+    padding: 2% 15% 3% 15%;
+}
+
+.food-logo {
+    width: 100px;
+    padding: 5% 3% 0 0;
+}
+
+
+/* contact information and feedback */
+
+#contact {
+    background-color: #FBFAD3;
+    text-align: center;
+    padding: 5% 0 5% 0;
+    position: relative;
+}
+
+.contact-text {
+    font-size: 3rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    background-color: pink;
+}
+
+.Contact-button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: rgb(231, 84, 109);
+    border-radius: 100%;
+}
+
+.bg {
+    background-color: pink;
+    padding: 2% 0 2% 0;
+}
+
+.feedback-icon {
+    width: 130px;
+}
+
+.fi-1 {
+    position: absolute;
+    right: 150px;
+}
+
+.fi-2 {
+    position: absolute;
+    left: 150px;
+}
+
+
+/* footer section */
+
+#footer {
+    background-color: #36622B;
+    text-align: center;
+    padding: 1% 5% 1% 5%;
+}
+
+.footer-icon {
+    width: 50px;
+    padding-right: 2%;
+}
+
+#footer p {
+    color: #fff;
+}
